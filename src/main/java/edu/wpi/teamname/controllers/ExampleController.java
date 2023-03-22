@@ -16,7 +16,7 @@ public class ExampleController {
     if (this.connectToDB()) {
       this.createTable();
       // just gonna break this file rq
-      System.out.println("ERROR");
+      System.out.println("ERROR"); //broken
     }
   }
 
