@@ -26,6 +26,7 @@ public class App extends Application {
   @Override
   public void start(Stage primaryStage) throws IOException {
     /* primaryStage is generally only used if one of your components require the stage to display */
+    // very important change for a very important branch
     App.primaryStage = primaryStage;
 
     final FXMLLoader loader = new FXMLLoader(App.class.getResource("views/Root.fxml"));
