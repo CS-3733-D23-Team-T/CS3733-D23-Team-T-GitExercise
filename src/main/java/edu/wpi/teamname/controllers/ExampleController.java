@@ -11,11 +11,12 @@ public class ExampleController {
   private Connection connection = null; // connection to database
 
   /** Method run when controller is initializes */
-  // just gonna break this file rq
   public void initialize() {
     // if connection is successful
     if (this.connectToDB()) {
       this.createTable();
+      // just gonna break this file rq
+      System.out.println("ERROR");
     }
   }
 
