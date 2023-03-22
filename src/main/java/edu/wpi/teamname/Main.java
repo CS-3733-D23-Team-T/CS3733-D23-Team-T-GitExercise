@@ -6,7 +6,6 @@ public class Main {
     App.launch(App.class, args);
   }
 
-  // shortcut: psv
-  // Quentin Hall
+  // shortcut: psvm
 
 }
